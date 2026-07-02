@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: blackterm-phishscan
+Version: 1.0.0
+Summary: BlackTerm PhishScan - phishing URL intelligence scanner
+Requires-Python: >=3.10
+Requires-Dist: colorama
+Requires-Dist: rich
+Requires-Dist: requests
+Requires-Dist: validators
+Requires-Dist: python-dotenv
+Requires-Dist: python-whois
+Requires-Dist: dnspython
+Requires-Dist: ipwhois
+Requires-Dist: playwright

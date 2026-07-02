@@ -1,0 +1,41 @@
+{
+    "tool": "BlackTerm PhishScan",
+    "target": "youtube.com",
+    "scan_time": "2026-07-01T20:46:31.352772",
+    "result": {
+        "valid": true,
+        "https": true,
+        "reachable": true,
+        "status_code": 200,
+        "domain": "youtube.com",
+        "final_url": "https://www.youtube.com/"
+    },
+    "risk_score": 0,
+    "reasons": [],
+    "virustotal": {
+        "enabled": true,
+        "error": null,
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 60,
+        "undetected": 32
+    },
+    "whois": {
+        "enabled": true,
+        "registrar": "MarkMonitor, Inc.",
+        "created": "2005-02-15",
+        "expires": "2027-02-15",
+        "domain_age_days": 7806,
+        "error": null
+    },
+    "ssl": {
+        "enabled": true,
+        "issuer": "Google Trust Services",
+        "subject": "*.google.com",
+        "valid_from": "2026-06-08",
+        "valid_until": "2026-08-31",
+        "days_remaining": 60,
+        "is_valid": true,
+        "error": null
+    }
+}

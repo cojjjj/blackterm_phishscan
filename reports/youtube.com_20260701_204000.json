@@ -1,0 +1,31 @@
+{
+    "tool": "BlackTerm PhishScan",
+    "target": "youtube.com",
+    "scan_time": "2026-07-01T20:40:00.905037",
+    "result": {
+        "valid": true,
+        "https": true,
+        "reachable": true,
+        "status_code": 200,
+        "domain": "youtube.com",
+        "final_url": "https://www.youtube.com/"
+    },
+    "risk_score": 0,
+    "reasons": [],
+    "virustotal": {
+        "enabled": true,
+        "error": null,
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 60,
+        "undetected": 32
+    },
+    "whois": {
+        "enabled": true,
+        "registrar": "MarkMonitor, Inc.",
+        "created": "2005-02-15",
+        "expires": "2027-02-15",
+        "domain_age_days": null,
+        "error": "can't subtract offset-naive and offset-aware datetimes"
+    }
+}

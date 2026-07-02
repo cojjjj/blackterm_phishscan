@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BlackTerm PhishScan Report</title>
+    <style>
+        body {
+            background: #0b0f14;
+            color: #e6edf3;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1 {
+            color: #ff2e2e;
+        }
+        .card {
+            background: #111827;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .low { color: #00ff88; }
+        .medium { color: #ffd166; }
+        .high { color: #ff4d4d; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            border-bottom: 1px solid #30363d;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        ul {
+            margin-top: 0;
+        }
+        .footer {
+            color: #8b949e;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BlackTerm PhishScan</h1>
+        <p>Generated: 2026-07-01 21:07:22</p>
+
+        <div class="card">
+            <h2>Target</h2>
+            <p>youtube.com</p>
+            <h2 class="low">LOW RISK</h2>
+            <p>Risk Score: 0/100</p>
+        </div>
+
+        <div class="card">
+            <h2>AI-Style Threat Summary</h2>
+            <p>Target youtube.com was assessed as LOW risk with a score of 0/100. VirusTotal reported no malicious or suspicious detections. The domain is approximately 7806 days old. The SSL certificate is valid and expires on 2026-08-31. DNS records are present and the domain resolves successfully. The hosting network appears to be GOOGLE - Google LLC, US. A website screenshot was captured successfully. No suspicious indicators were detected by the local rule engine.</p>
+        </div>
+
+        <div class="card">
+            <h2>Website Screenshot</h2>
+            <img src="youtube.com_20260701_210718.png" style="width:100%; border-radius:12px; border:1px solid #30363d;">
+        </div>
+
+        <div class="card">
+            <h2>Scan Results</h2>
+            <table>
+                <tr><th>Check</th><th>Value</th></tr>
+                <tr><td>Valid URL</td><td>True</td></tr>
+                <tr><td>HTTPS</td><td>True</td></tr>
+                <tr><td>Reachable</td><td>True</td></tr>
+                <tr><td>Status Code</td><td>200</td></tr>
+                <tr><td>Domain</td><td>youtube.com</td></tr>
+                <tr><td>Final URL</td><td>https://www.youtube.com/</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>VirusTotal</h2>
+            <table>
+                <tr><th>Metric</th><th>Value</th></tr>
+                <tr><td>Enabled</td><td>True</td></tr>
+                <tr><td>Malicious</td><td>0</td></tr>
+                <tr><td>Suspicious</td><td>0</td></tr>
+                <tr><td>Harmless</td><td>60</td></tr>
+                <tr><td>Undetected</td><td>32</td></tr>
+                <tr><td>Error</td><td>None</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>WHOIS</h2>
+            <table>
+                <tr><th>Field</th><th>Value</th></tr>
+                <tr><td>Registrar</td><td>MarkMonitor, Inc.</td></tr>
+                <tr><td>Created</td><td>2005-02-15</td></tr>
+                <tr><td>Expires</td><td>2027-02-15</td></tr>
+                <tr><td>Domain Age Days</td><td>7806</td></tr>
+                <tr><td>Error</td><td>None</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>SSL Certificate</h2>
+            <table>
+                <tr><th>Field</th><th>Value</th></tr>
+                <tr><td>Issuer</td><td>Google Trust Services</td></tr>
+                <tr><td>Subject</td><td>*.google.com</td></tr>
+                <tr><td>Valid From</td><td>2026-06-08</td></tr>
+                <tr><td>Valid Until</td><td>2026-08-31</td></tr>
+                <tr><td>Days Remaining</td><td>60</td></tr>
+                <tr><td>Currently Valid</td><td>True</td></tr>
+                <tr><td>Error</td><td>None</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>DNS Intelligence</h2>
+            <table>
+                <tr><th>Record Type</th><th>Values</th></tr>
+                <tr><td>A</td><td><ul><li>142.250.188.14</li></ul></td></tr>
+                <tr><td>AAAA</td><td><ul><li>2607:f8b0:4006:815::200e</li></ul></td></tr>
+                <tr><td>MX</td><td><ul><li>0 smtp.google.com.</li></ul></td></tr>
+                <tr><td>NS</td><td><ul><li>ns4.google.com.</li><li>ns1.google.com.</li><li>ns2.google.com.</li><li>ns3.google.com.</li></ul></td></tr>
+                <tr><td>TXT</td><td><ul><li>"facebook-domain-verification=64jdes7le4h7e7lfpi22rijygx58j1"</li><li>"v=spf1 include:google.com mx -all"</li><li>"google-site-verification=QtQWEwHWM8tHiJ4s-jJWzEQrD_fF3luPnpzNDH-Nw-w"</li></ul></td></tr>
+                <tr><td>Error</td><td>None</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>IP Intelligence</h2>
+            <table>
+                <tr><th>Field</th><th>Value</th></tr>
+                <tr><td>IP Address</td><td>142.250.188.14</td></tr>
+                <tr><td>ASN</td><td>15169</td></tr>
+                <tr><td>ASN Description</td><td>GOOGLE - Google LLC, US</td></tr>
+                <tr><td>Network Name</td><td>GOOGLE</td></tr>
+                <tr><td>Country</td><td>None</td></tr>
+                <tr><td>Error</td><td>None</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Detection Reasons</h2>
+            <ul><li>No suspicious indicators detected.</li></ul>
+        </div>
+
+        <p class="footer">Generated by BlackTerm PhishScan</p>
+    </div>
+</body>
+</html>

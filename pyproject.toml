@@ -1,0 +1,36 @@
+[project]
+name = "blackterm-phishscan"
+version = "1.0.0"
+description = "BlackTerm PhishScan - phishing URL intelligence scanner"
+requires-python = ">=3.10"
+dependencies = [
+    "colorama",
+    "rich",
+    "requests",
+    "validators",
+    "python-dotenv",
+    "python-whois",
+    "dnspython",
+    "ipwhois",
+    "playwright"
+]
+
+[project.scripts]
+blackterm = "main:main"
+
+[tool.setuptools]
+py-modules = [
+    "main",
+    "scanner",
+    "scoring",
+    "reporter",
+    "html_reporter",
+    "virustotal",
+    "whois_lookup",
+    "ssl_checker",
+    "dns_lookup",
+    "ip_lookup",
+    "screenshotter",
+    "threat_summary",
+    "utils"
+]

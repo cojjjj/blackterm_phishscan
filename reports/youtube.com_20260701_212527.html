@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BlackTerm PhishScan Report</title>
+    <style>
+        body {
+            background: radial-gradient(circle at top, #1a1115, #07090d 45%);
+            color: #e6edf3;
+            font-family: Segoe UI, Arial, sans-serif;
+            padding: 30px;
+        }
+        .container {
+            max-width: 1150px;
+            margin: auto;
+        }
+        h1 {
+            color: #ff2e2e;
+            letter-spacing: 2px;
+        }
+        .subtitle {
+            color: #8b949e;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+        .card {
+            background: rgba(17, 24, 39, 0.92);
+            border: 1px solid #30363d;
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(255, 46, 46, 0.08);
+        }
+        .stat {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .low { color: #00ff88; }
+        .medium { color: #ffd166; }
+        .high { color: #ff4d4d; }
+        .badge {
+            padding: 5px 10px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .badge.low {
+            background: rgba(0, 255, 136, .12);
+            color: #00ff88;
+            border: 1px solid #00ff88;
+        }
+        .badge.medium {
+            background: rgba(255, 209, 102, .12);
+            color: #ffd166;
+            border: 1px solid #ffd166;
+        }
+        .badge.high {
+            background: rgba(255, 77, 77, .12);
+            color: #ff4d4d;
+            border: 1px solid #ff4d4d;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            border-bottom: 1px solid #30363d;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .bar {
+            width: 100%;
+            height: 18px;
+            background: #21262d;
+            border-radius: 999px;
+            overflow: hidden;
+            border: 1px solid #30363d;
+        }
+        .fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #00ff88, #ffd166, #ff4d4d);
+        }
+        .screenshot {
+            width: 100%;
+            border-radius: 14px;
+            border: 1px solid #30363d;
+        }
+        .footer {
+            color: #8b949e;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>BLACKTERM PHISHSCAN</h1>
+    <p class="subtitle">Generated: 2026-07-01 21:25:27</p>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Risk Score</h3>
+            <div class="stat low">0/100</div>
+            <div class="bar"><div class="fill"></div></div>
+        </div>
+        <div class="card">
+            <h3>Verdict</h3>
+            <span class="badge low">LOW RISK</span>
+        </div>
+        <div class="card">
+            <h3>Target</h3>
+            <p>youtube.com</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>AI Threat Summary</h2>
+        <p>Target youtube.com was assessed as LOW risk with a score of 0/100. VirusTotal reported no malicious or suspicious detections. The domain is approximately 7806 days old. The SSL certificate is valid and expires on 2026-08-31. DNS records are present and the domain resolves successfully. The hosting network appears to be GOOGLE - Google LLC, US. No suspicious indicators were detected by the local rule engine.</p>
+    </div>
+
+    <div class="card">
+        <h2>Website Screenshot</h2>
+        <p>No screenshot captured.</p>
+    </div>
+
+    <div class="card">
+        <h2>Scan Results</h2>
+        <table>
+            <tr><th>Check</th><th>Value</th></tr>
+            <tr><td>Valid URL</td><td>True</td></tr>
+            <tr><td>HTTPS</td><td>True</td></tr>
+            <tr><td>Reachable</td><td>True</td></tr>
+            <tr><td>Status Code</td><td>200</td></tr>
+            <tr><td>Domain</td><td>youtube.com</td></tr>
+            <tr><td>Final URL</td><td>https://www.youtube.com/</td></tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>Threat Intelligence</h2>
+        <table>
+            <tr><th>Source</th><th>Status</th></tr>
+            <tr><td>VirusTotal</td><td>Malicious: 0, Suspicious: 0</td></tr>
+            <tr><td>WHOIS</td><td>Registrar: MarkMonitor, Inc., Age: 7806 days</td></tr>
+            <tr><td>SSL</td><td>Issuer: Google Trust Services, Valid: True</td></tr>
+            <tr><td>DNS</td><td>A: <li>142.250.217.238</li></td></tr>
+            <tr><td>IP</td><td>142.250.217.238 - GOOGLE - Google LLC, US</td></tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>Detection Reasons</h2>
+        <ul><li>No suspicious indicators detected.</li></ul>
+    </div>
+
+    <p class="footer">Generated by BlackTerm PhishScan</p>
+</div>
+</body>
+</html>

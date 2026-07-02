@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+reports/
+.env
+*.png
+*.json
+*.html
+blackterm_phishscan.egg-info/

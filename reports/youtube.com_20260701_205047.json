@@ -1,0 +1,64 @@
+{
+    "tool": "BlackTerm PhishScan",
+    "target": "youtube.com",
+    "scan_time": "2026-07-01T20:50:47.683586",
+    "result": {
+        "valid": true,
+        "https": true,
+        "reachable": true,
+        "status_code": 200,
+        "domain": "youtube.com",
+        "final_url": "https://www.youtube.com/"
+    },
+    "risk_score": 0,
+    "reasons": [],
+    "virustotal": {
+        "enabled": true,
+        "error": null,
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 60,
+        "undetected": 32
+    },
+    "whois": {
+        "enabled": true,
+        "registrar": "MarkMonitor, Inc.",
+        "created": "2005-02-15",
+        "expires": "2027-02-15",
+        "domain_age_days": 7806,
+        "error": null
+    },
+    "ssl": {
+        "enabled": true,
+        "issuer": "Google Trust Services",
+        "subject": "*.google.com",
+        "valid_from": "2026-06-08",
+        "valid_until": "2026-08-31",
+        "days_remaining": 60,
+        "is_valid": true,
+        "error": null
+    },
+    "dns": {
+        "enabled": true,
+        "a_records": [
+            "142.250.68.206"
+        ],
+        "aaaa_records": [
+            "2607:f8b0:4006:804::200e"
+        ],
+        "mx_records": [
+            "0 smtp.google.com."
+        ],
+        "ns_records": [
+            "ns2.google.com.",
+            "ns3.google.com.",
+            "ns1.google.com.",
+            "ns4.google.com."
+        ],
+        "txt_records": [
+            "\"facebook-domain-verification=64jdes7le4h7e7lfpi22rijygx58j1\"",
+            "\"google-site-verification=QtQWEwHWM8tHiJ4s-jJWzEQrD_fF3luPnpzNDH-Nw-w\"",
+            "\"v=spf1 include:google.com mx -all\""
+        ]
+    }
+}

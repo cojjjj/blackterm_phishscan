@@ -1,0 +1,15 @@
+{
+    "tool": "BlackTerm PhishScan",
+    "target": "youtube.com",
+    "scan_time": "2026-07-01T20:22:09.894625",
+    "result": {
+        "valid": true,
+        "https": true,
+        "reachable": true,
+        "status_code": 200,
+        "domain": "youtube.com",
+        "final_url": "https://www.youtube.com/"
+    },
+    "risk_score": 0,
+    "reasons": []
+}
