@@ -308,7 +308,7 @@ blackterm-phishscan/
 
 ### Rich Dashboard
 
-> *(Add a screenshot here)*
+> 
 
 ### HTML Report
 
